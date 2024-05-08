@@ -11,7 +11,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final PageController _pageController = PageController();
 
-  int indexBottomNavBar = 1;
+  int indexBottomNavBar = 0;
 
   @override
   Widget build(BuildContext context) {
